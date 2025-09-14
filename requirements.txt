@@ -4,9 +4,5 @@ Werkzeug==3.0.3
 itsdangerous==2.2.0
 click==8.1.7
 
-# Banco de dados
-sqlite3-binary ; sys_platform == "linux" or sys_platform == "darwin"
-pysqlite3-binary ; sys_platform == "win32"
-
 # Utilitários
 python-dotenv==1.0.1
